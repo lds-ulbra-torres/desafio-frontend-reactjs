@@ -47,6 +47,5 @@ Desenvolver o front-end de uma  Agenda de Compromissos (CRUD) utilizando React.j
 - daniela.schutt@rede.ulbra.br
 - joziel.santos@rede.ulbra.br
 
-Em caso de dúvidas, [abra uma issue](https://github.com/lds-ulbra-torres/desafio-codeigniter/issues)
-
+Em caso de dúvidas, [abra uma issue](https://github.com/lds-ulbra-torres/desafio-frontend-reactjs/issues)
 boa sorte e abç.
