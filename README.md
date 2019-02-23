@@ -25,6 +25,10 @@ Desenvolver o front-end de uma  Agenda de Compromissos (CRUD) utilizando React.j
 - Use as **cores** definidas no [guideline](https://www.figma.com/proto/PS8Mw3IZtCbpp0r9FsuEEQYE/Untitled?node-id=6%3A2&scaling=scale-down);
 - As **fontes** utilizadas são: [Roboto](https://www.google.com/fonts/specimen/Roboto) e [Roboto Slab](https://www.google.com/fonts/specimen/Roboto+Slab);
 
+### API a ser consumida
+
+- https://desafio-lds.herokuapp.com/documentation/v1.0.0
+
 #### Instruções:
 
 1. Faça um fork deste projeto.
