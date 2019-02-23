@@ -19,13 +19,13 @@ Desenvolver o front-end de uma  Agenda de Compromissos (CRUD) utilizando React.j
 
 - O template do React.js já está disponível. Basta fazer as configurações necessárias para o projeto.
 
-### Layout
+#### Layout:
 
 - No link [Layout](https://www.figma.com/proto/PS8Mw3IZtCbpp0r9FsuEEQYE/Untitled?node-id=1%3A2&scaling=scale-down) possui arquivos, use-os como referência para desenvolver o protótipo;
 - Use as **cores** definidas no [guideline](https://www.figma.com/proto/PS8Mw3IZtCbpp0r9FsuEEQYE/Untitled?node-id=6%3A2&scaling=scale-down);
 - As **fontes** utilizadas são: [Roboto](https://www.google.com/fonts/specimen/Roboto) e [Roboto Slab](https://www.google.com/fonts/specimen/Roboto+Slab);
 
-### API a ser consumida
+#### API a ser consumida:
 
 - https://desafio-lds.herokuapp.com/documentation/v1.0.0
 
@@ -37,7 +37,7 @@ Desenvolver o front-end de uma  Agenda de Compromissos (CRUD) utilizando React.j
 4. Ao finalizar este desafio, enviar um pull request com suas alterações e envie um e-mail para daniela.schutt@rede.ulbra.br com o link do pull request.
 
 
-### Diferenciais
+#### Diferenciais:
 
 - Responsividade
 - Redux
@@ -45,11 +45,13 @@ Desenvolver o front-end de uma  Agenda de Compromissos (CRUD) utilizando React.j
 - Boa documentação;
 - Testes automatizados;
 
-### Contatos
+#### Contatos:
 
 - cassio.huggentobler@rede.ulbra.br
 - daniela.schutt@rede.ulbra.br
 - joziel.santos@rede.ulbra.br
+
+---
 
 Em caso de dúvidas, [abra uma issue](https://github.com/lds-ulbra-torres/desafio-frontend-reactjs/issues)
 boa sorte e abç.
