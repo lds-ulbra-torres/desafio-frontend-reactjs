@@ -1,68 +1,48 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Desafio Front-end LDS (React): js, html, css
 
-## Available Scripts
+#### Objetivo:
 
-In the project directory, you can run:
+Desenvolver o front-end de uma  Agenda de Compromissos (CRUD) utilizando React.js e consumindo uma API Restful.
 
-### `npm start`
+#### Desafio:
+- Implementar o front-end consumido uma API Restful, com as funcionalidades abaixo.
+  
+- Gerenciar compromissos
+  - Listar (e filtrar quais compromissos por período.)
+  - Adicionar
+  - Editar
+  - Excluir
+  - os campos são: ID, titulo, horário (data/hora).
+  
+- Realizar validação de dados no front.
+  - Caso o servidor retorne erro, apresentá-lo amigavelmente ao usuário.
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- O template do React.js já está disponível. Basta fazer as configurações necessárias para o projeto.
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+### Layout
 
-### `npm test`
+- Dentro da pasta ![Layout](https://www.figma.com/proto/PS8Mw3IZtCbpp0r9FsuEEQYE/Untitled?node-id=1%3A2&scaling=scale-down) possui arquivos, use-os como referência para desenvolver o protótipo;
+- Use as **cores** definidas no ![guideline](https://drive.google.com/file/d/1t-0eUmADoKh4KCws9VfXnM7UQSY53cYC/preview);
+- As **fontes** utilizadas são: [Roboto](https://www.google.com/fonts/specimen/Roboto) e [Roboto Slab](https://www.google.com/fonts/specimen/Roboto+Slab);
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+#### Instruções:
 
-### `npm run build`
+1. Faça um fork deste projeto.
+2. Crie uma branch com o padrão `seunome-desafio-frontend-react`.
+3. Criar uma pasta Schema e colocar os scripts do database.
+4. Ao finalizar este desafio, enviar um pull request com suas alterações e envie um e-mail para cassio.costa@ulbra.br com o link do pull request.
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
+### Diferenciais
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Responsividade
+- Redux
+- Legibilidade;
+- Boa documentação;
+- Testes automatizados;
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Em caso de dúvidas, [abra uma issue](https://github.com/lds-ulbra-torres/desafio-codeigniter/issues)
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+boa sorte e abç.
