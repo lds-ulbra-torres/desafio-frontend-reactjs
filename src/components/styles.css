@@ -1,0 +1,83 @@
+td, th {
+    text-align: left;
+    padding: 8px;
+}
+  
+tr:nth-child(even) {
+    background-color: #BBE8DB;
+}
+.titulos{
+    background-color: #32BA91;
+}
+.titul{
+    color: #32BA91;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-weight: bold;
+}
+.ajuste{
+    width: 190px;
+}
+.pesquisar{
+    background-color: #BBE8DB;
+    border-radius: 25px;
+    color: #ffffff;
+    width: 100%;
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+    margin-bottom: 35px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 40px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    box-shadow: 5px 5px 5px rgba(138, 135, 135, 0.5);
+}
+.inserir{
+    width: 100%;
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+    font-family: 'Roboto', sans-serif;
+    color: #666666;
+    padding-left: 30px;
+    background-color:transparent;
+}
+.horario{
+    width: 100%;
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+    font-family: 'Roboto', sans-serif;
+    color: #666666;
+    background-color:transparent;
+}
+.botaozinho{
+    width: 100px;
+    height: 20px;
+}
+.charlatao{
+    border-radius: 17px;
+}
+.botao{
+    background: #3ECE66;
+    border-radius: 25px;
+    width: 100%;
+}
+.editar{
+    background: #577CFD;
+    border-radius: 25px;
+}
+.excluir{
+    background: #FF5E5E;
+    border-radius: 25px;
+}
+.tableTitulo{
+    color: #ffffff;
+    padding-left: 30px;
+}
+.tableHorario{
+    color: #ffffff;
+}
