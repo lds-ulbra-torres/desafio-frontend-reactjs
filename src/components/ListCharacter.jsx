@@ -11,15 +11,15 @@ const CardContent = styled.div`
   justify-content: space-between;
 `
 
-export function ListCharacter(props) {
+export function ListCharacter({ list, open }) {
   return (
     <>
-      {props.list.map(item => (
+      {list.map(item => (
         <CardContainer key={item.name}>
           <Card>
             <CardContent>
               <span>{item.name}</span>
-              <Button icon="eye-open" />
+              <Button icon="eye-open" onClick={() => open(item.url)} />
             </CardContent>
           </Card>
         </CardContainer>
