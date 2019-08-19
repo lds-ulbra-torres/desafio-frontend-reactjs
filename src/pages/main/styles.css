@@ -1,0 +1,61 @@
+.peoples-list {
+  min-width: 700px;
+  margin: 20px auto 0;
+  padding: 0 20px;
+}
+
+.peoples-list article {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 30px;
+}
+
+.peoples-list article a {
+  height: 42px;
+  border-radius: 5px;
+  border: 2px solid #da552f;
+  background: none;
+  margin-top: 10px;
+  font-size: 14px;
+  color: #da552f;
+  font-weight: bold;
+  font-size: 14px;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  transition: all 0.2s;
+}
+
+.peoples-list article a:hover {
+  background: #da552f;
+  color: #fff;  
+}
+
+.peoples-list .actions {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.peoples-list .actions button {
+  padding: 10px;
+  border-radius: 5px;
+  border: 0;
+  background: #da552f;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.peoples-list .actions button[disabled] {
+  opacity: 0.3;
+  cursor: defaut;
+}
+
+.peoples-list .actions button:hover {
+  opacity: 0.5;
+}
