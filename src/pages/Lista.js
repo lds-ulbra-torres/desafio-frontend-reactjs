@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import api from '../services/api'
+import './Lista.css'
 
 export default function Lista() {
     const [personagem, setPersonagem] = useState([])
@@ -8,15 +9,33 @@ export default function Lista() {
         async function loadGalera() {
             const response = await api.get('/')
             const data = response.data.results
-            console.log(data)
+            // console.log(data)
             setPersonagem(data)
         }
         loadGalera()
     }, [])
     return (
         <div className="listaContainer">
-            <h1>Lista de personagens</h1>
-            {personagem.map(personagem => (<p>{personagem.name}</p>))}
-        </div>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Nome</th>
+                        <th>Ações</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {personagem.map((personagem, index) => (
+                        <tr key={index}>
+                            <td>
+                                {personagem.name}
+                            </td>
+                            <td>
+                                <button type='button'>Ver</button>
+                            </td>
+                        </tr>
+                    ))}
+                </tbody>
+            </table>
+        </div >
     )
 }
