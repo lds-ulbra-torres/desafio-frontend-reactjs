@@ -1,9 +1,9 @@
 import React from 'react';
 import './App.css';
-import Lista from './pages/Lista'
+import Routes from './services/routes'
 
 export default function App() {
   return (
-    <Lista />
+    <Routes />
   )
 }
