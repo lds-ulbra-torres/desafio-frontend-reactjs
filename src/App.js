@@ -1,8 +1,9 @@
 import React from 'react';
 import './App.css';
+import Lista from './pages/Lista'
 
-export default function App(){
-  return(
-    <h1>Songs that saved my life.</h1>
+export default function App() {
+  return (
+    <Lista />
   )
 }
