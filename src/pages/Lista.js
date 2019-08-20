@@ -1,41 +1,36 @@
 import React, { useEffect, useState } from 'react'
 import api from '../services/api'
-import './Lista.css'
 
 export default function Lista() {
-    const [personagem, setPersonagem] = useState([])
+    const [lista, setlista] = useState([])
+    let [page, setPage] = useState(1)
 
     useEffect(() => {
-        async function loadGalera() {
-            const response = await api.get('/')
-            const data = response.data.results
-            // console.log(data)
-            setPersonagem(data)
+        async function fetchData() {
+            const response = await api.get(`/?page=${page}`)
+            setlista(response.data.results)
         }
-        loadGalera()
-    }, [])
+        fetchData()
+    }, [page])
+
     return (
-        <div className="listaContainer">
+        <div className='listaContainer'>
             <table>
-                <thead>
-                    <tr>
-                        <th>Nome</th>
-                        <th>Ações</th>
-                    </tr>
-                </thead>
+                <thead><tr><th>Nome</th></tr></thead>
                 <tbody>
-                    {personagem.map((personagem, index) => (
+                    
+                    {lista.map((list, index) => (
                         <tr key={index}>
-                            <td>
-                                {personagem.name}
-                            </td>
-                            <td>
-                                <button type='button'>Ver</button>
-                            </td>
+                            <td>{list.name}</td>
+                            <td><button type='button'>Ver</button></td>
+
                         </tr>
                     ))}
                 </tbody>
             </table>
-        </div >
+            <button type='button' onClick={() => setPage(page - 1)}>Anterior</button>
+            <span>Página {page}</span>
+            <button type='button' onClick={() => setPage(page + 1)}>Próximo</button>
+        </div>
     )
 }
