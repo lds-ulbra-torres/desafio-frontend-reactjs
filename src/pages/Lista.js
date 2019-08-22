@@ -8,14 +8,15 @@ export default function Lista({ history }) {
 
     useEffect(() => {
         async function fetchData() {
-            const response = await api.get(`/?page=${page}`)
+            const response = await api.get(`?page=${page}`)
             setlista(response.data.results)
+
         }
         fetchData()
     }, [page])
 
     function fetchSpec(id){
-        history.push(`specs/${id}`)
+        history.push(`/specs/${id}`)
     }
 
     return (
@@ -28,12 +29,15 @@ export default function Lista({ history }) {
                     </tr>
                 </thead>
                 <tbody>
-                    {lista.map((list, index) => (
-                        <tr key={index++}>
-                            <td>{list.name}</td>
-                            <td><button type='button' id='buttonSpec' onClick={() => fetchSpec(index)}>Ver</button></td>
-                        </tr>
-                    ))}
+                    {lista.map((list, index) => {
+                        const id = list.url.substring(28).replace('/', '')
+                        return (
+                            <tr key={index}>
+                                <td>{list.name}</td>
+                                <td><button type='button' id='buttonSpec' onClick={() => fetchSpec(id)}>Ver</button></td>
+                            </tr>
+                        )
+                    })}
                 </tbody>
             </table>
             <button type='button' id='buttonPage' onClick={() => setPage(page - 1)}>Anterior</button>
