@@ -10,12 +10,13 @@
     border-collapse: collapse;
 }
 
-.container table thead tr th {
+.container table tbody tr td {
+    text-align: left;
     padding: 8px;
     border: 1px solid black;
 }
 
-.container table tbody tr td {
+.container table tbody tr th {
     text-align: left;
     padding: 8px;
     border: 1px solid black;
