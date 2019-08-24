@@ -49,12 +49,15 @@ export default class Main extends Component {
 
     return (
       <div className="peoples-list">
-        {peoples.map(people => (
-          <article key={people._id}>
+        {peoples.map(people => {
+          const id = people.url.substring(28).replace('/', '')
+
+          return (<article key={id}>
             <strong>{people.name}</strong>
-            <Link to={`/people/${people._id}`}>Ver</Link>
-          </article>          
-        ))}
+            <Link to={`/people/${id}`}>Ver</Link>
+          </article>)
+        }
+        )}
         <div className="actions">
           <button disabled={page === 1} onClick={this.prevPage}>Anterior</button>
           <button disabled={page === peopleInfo.page} onClick={this.nextPage}>Próximo</button>

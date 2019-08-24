@@ -18,11 +18,16 @@ export default class Peoples extends Component {
 
   render() {
     const { people } = this.state
-
+    console.log(people)
     return (
       <div className="people-info">
-        <h1>{people.name}</h1>
-        <p>{people}</p>
+        <p>Nome: {people.name}</p>
+        <p>Tamanho: {people.height}</p>
+        <p>Peso: {people.mass}</p>
+        <p>Cor do cabelo: {people.hair_color}</p>
+        <p>Cor da pele: {people.skin_color}</p>
+        <p>Cor dos olhos: {people.eye_color}</p>
+        <p>Idade: {people.birth_year}</p>
       </div>
     )
   }
