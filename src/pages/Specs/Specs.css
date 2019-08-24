@@ -1,0 +1,26 @@
+.container {
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.container table {
+    width: 100%;
+    max-width: 80%;
+    border-collapse: collapse;
+}
+
+.container table thead tr th {
+    padding: 8px;
+    border: 1px solid black;
+}
+
+.container table tbody tr td {
+    text-align: left;
+    padding: 8px;
+    border: 1px solid black;
+}
+
+.container table tbody tr:nth-child(even) {
+    background-color: #ddd;
+}
