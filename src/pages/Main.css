@@ -1,0 +1,50 @@
+table{
+    padding-top: 10px;
+    align-content: center;
+    border:  1px solid black;
+}
+             
+.main-container table {
+    width: 100%;
+    max-width: 70%;
+    border-collapse: collapse;
+}
+
+.main-container table thead tr th {
+    padding: 5px;
+    border: 1px solid black;
+}
+
+.main-container table tbody tr td {
+    text-align: left;
+    padding: 5px;
+    border: 1px solid black;
+}
+
+
+.main-container table button{
+    background:  rgb(170, 37, 141);
+    border: 0;
+    border-radius: 2px;
+    font-size: 15px;
+    font-weight: bold;
+    color: #fff;
+    cursor: pointer;
+ }
+
+ .paginas{
+     padding-top: 10px;
+     display: flex;
+
+}
+
+ .paginas button{
+    background: rgb(170, 37, 141);
+    border-radius: 2px;
+    border: 0;
+    font-size: 15px;
+    font-weight: bold;
+    color: #fff;
+    cursor: pointer;   
+}
+

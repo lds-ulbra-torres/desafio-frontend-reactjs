@@ -1,0 +1,27 @@
+*{
+    margin: 0 auto;
+
+}
+.container {
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.container table {
+    width: 100%;
+    max-width: 80%;
+    border-collapse: collapse;
+}
+
+.container table tbody tr td {
+    text-align: left;
+    padding: 6px;
+    border: 1px solid black;
+}
+
+.container table tbody tr th {
+    text-align: left;
+    padding: 6px;
+    border: 1px solid black;
+}
