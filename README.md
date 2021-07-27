@@ -11,9 +11,13 @@ User stories:
 
 1. SENDO um usário na página principal, POSSO pesquisar o usuário pelo meu nome ou qualque outro nome E pequisar no github PARA QUE obtenha os dados perfil e os respectivos respositórios.
 
-#### Critérios de Aceite
+#### Critérios de aceite
 
+- DADO QUE o usuário na home page e digitar o nome de usuário cassiocosta QUANDO clicar no botão Pesquisar ENTÃO o sistema pesquisa e preenche a tela de perfil mostrando ....
 
+- DADO QUE o usuário na home page QUANDO clicar no botão Pesquisar ENTÃO o sistema retorna a mensagem: "informe um nome de usuário válido do github"
+
+- DADO QUE o usuário na home page e digitar o usuário "UsuarioqueProvavelmenteNãoExisteLá" QUANDO clicar no botão Pesquisar ENTÃO o sistema faz a consulta e retorna a mensagem: "Usuário não encontrado no github. Verifique se você digitou o nome corretamente"
 
 
 Orientações Técnicas:
