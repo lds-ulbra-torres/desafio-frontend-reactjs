@@ -45,7 +45,8 @@ Referências da API
 
 UI
 ----
-- Design da tela pode ser replicada a tela de perfil e repositórios do próprio github
+- Design da tela pode ser replicada a tela de perfil e repositórios do próprio github.
+- Exemplo na pasta images deste repositório.
 
 
 Diferenciais:
@@ -67,4 +68,4 @@ Contatos:
 
 Em caso de dúvidas, [abra uma issue](https://github.com/lds-ulbra-torres/desafio-backend-nodejs/issues)
 
-boa sorte e abç.
+Boa sorte e abraço!
